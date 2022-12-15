@@ -1,0 +1,61 @@
+ 
+  
+  .progress-bar__container {
+    width: 80%;
+    height: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    will-change: transform;
+    box-shadow: 0 0 5px #e76f51;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: #e76f51;
+    top:0;
+    bottom: 0;
+    left: -100%;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .progress-bar__text {
+    display: none;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.img-back{
+	
+		width:10px;
+		heigth:10px;
+}
+.swiper-slide {
+    background-color: #5e42ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-hero-progress {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 0;
+    height: 3px;
+    background: #FFF;
+    z-index: 5;
+	backgroound-image: url('https://cdn.shopify.com/s/files/1/0565/5219/4206/files/truck-icon.svg');
+}
